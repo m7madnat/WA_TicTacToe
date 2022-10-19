@@ -1,0 +1,122 @@
+body {
+    background-color: #264653;
+    text-align: center;
+    font-family: 'Dangrek', cursive;
+}
+
+h1 {
+    color: #2a9d8f;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.TicTac {
+    padding-top: 30px;
+    width: 300px;
+    margin: 0;
+    margin: 0 auto;
+}
+
+.box {
+
+    background-color: #1f3641;
+    border-radius: 15px;
+    border: none;
+    height: 85px;
+    width: 50px;
+    display: flex;
+    border: 5px solid #264653;
+    box-shadow: inset 0 -5px 0 #0f191e;
+    flex: 1 1 33%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    color: #fff;
+    font-family: Brush Script MT;
+}
+
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+}
+
+#HopeWish {
+    color: #2a9d8f;
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+#resetBtn {
+    background-color: #2a9d8f;
+    border: none;
+    color: #eeede7;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.timer {
+    color: #98a7a7;
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.turn {
+    color: #faffff;
+    font-size: 20px;
+}
+
+.scoreboard {
+
+    color: #faffff;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.hide {
+    display: none !important;
+}
+
+.hide2{
+    visibility: hidden;
+}
+
+#buttons-container {
+    width: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+#buttons-container button {
+    font-size: 25px;
+    border-radius: 10px;
+    width: 400px;
+    height: 60px;
+    border: none;
+    padding: 10px 15px;
+    margin: 8px 10px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.two-players {
+    background-color: #2a9d8f;
+    color: #faffff;
+}
+
+.Rules {
+    color: #faffff;
+    margin-bottom: 20px;
+}
